@@ -1,5 +1,6 @@
-# Bulb ON OFF Task:
+# Bulb On Off Task:
 ### Hosted Link: https://divyanshrajpoot9.github.io/Bulb_ON_OFF_Task/
+### Technologies Used: HTML/CSS/JavaScript.
 ### JavaScript DOM Manipulation:
 The Document Object Model (DOM) is a programming interface for web documents. It provides a structured web page representation, allowing you to access and manipulate its elements and content using JavaScript. Here are some basic DOM properties and methods.
 document: The document object represents the entire HTML document and serves as the entry point to the DOM. It provides properties and methods to access and modify the document's structure, content, and style.
