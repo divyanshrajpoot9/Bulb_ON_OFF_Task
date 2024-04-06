@@ -1,5 +1,5 @@
 # Bulb ON OFF Task:
-### Hosted Link: https: https://divyanshrajpoot9.github.io/Bulb_ON_OFF_Task/
+### Hosted Link: https://divyanshrajpoot9.github.io/Bulb_ON_OFF_Task/
 ### JavaScript DOM Manipulation:
 The Document Object Model (DOM) is a programming interface for web documents. It provides a structured web page representation, allowing you to access and manipulate its elements and content using JavaScript. Here are some basic DOM properties and methods.
 document: The document object represents the entire HTML document and serves as the entry point to the DOM. It provides properties and methods to access and modify the document's structure, content, and style.
@@ -52,5 +52,5 @@ This HTML code creates a simple web page called "Copy Cat." Here's a breakdown o
 
 6. **Conclusion**:
     - The code toggles the image displayed between a bulb turned on and turned off each time the button is clicked. It also toggles the text content of the button to reflect the current state of the bulb (on or off).
-    - 
+  ## UI
 ![image](https://github.com/divyanshrajpoot9/Bulb_ON_OFF_Task/assets/114856467/ce04147a-ef0b-46ad-a092-c5c467a0ed7f)
