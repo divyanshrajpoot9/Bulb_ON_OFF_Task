@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    text-align: center;
+    font-size: 50px;
+    background-color: bisque;
+}
+.bottom{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+.main{
+margin: auto;
+height: 400px;
+width: 380px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_top{
+height: 92%;
+}
+.main_bottom{
+    height: 8%;
+    text-align: center;
+}
+#btn{
+    height: 30px;
+    width: 72px;
+    margin-top: 2px;
+}
+.main img{
+height: 100%;
+width: 100%;
+}
