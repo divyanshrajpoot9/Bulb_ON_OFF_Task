@@ -13,7 +13,6 @@ document: The document object represents the entire HTML document and serves as 
   ####  querySelectorAll(selector): Returns a list of all elements that match the CSS selector.
 
 This HTML code creates a simple web page called "Copy Cat." Here's a breakdown of its structure and functionality:
-This HTML code creates a simple web page called "Copy Cat." Here's a breakdown of its structure and functionality:
 
 1. **HTML Structure**:
    - The `<!DOCTYPE html>` declaration defines the document type and HTML version being used.
@@ -28,29 +27,30 @@ This HTML code creates a simple web page called "Copy Cat." Here's a breakdown o
    - **Main Section**: It displays the entered text inside a box with a light goldenrod yellow background and red text colour. This section is initially empty but updates dynamically as the user types in the input field.
    - **Footer**: It displays the message "Made with Love By Divyansh Rajpoot" and has a light blue background with blue-violet text colour.
 
-1. **HTML Structure:**
-   - The HTML structure defines two sections of text, each enclosed within separate `<div>` elements with IDs "text1" and "text2".
-   - These sections are initially displayed on the webpage.
+1. **Element References**: 
+    - `image_ref` is a variable that holds a reference to an image element in the HTML document. This element is identified by the ID attribute 'img_id'.
+    - `btn_ref` is a variable that holds a reference to a button element in the HTML document. This element is identified by the ID attribute 'btn'.
 
-2. **JavaScript:**
-   - The JavaScript code targets these elements using the `document.getElementById()` method to get references to `text1_ref` and `text2_ref`.
+2. **Function Definition**:
+    - `switch_me()` is a function declared in JavaScript. This function will be called whenever an event triggers it, such as clicking on a button.
 
-3. **Event Handling:**
-   - An event listener is attached to the button element with the id "bin". The `swipe_data()` function is executed when this button is clicked.
+3. **Function Implementation**:
+    - Inside the `switch_me()` function:
+        - An if-else statement checks the text content of the button referenced by `btn_ref`.
+        - If the button's text content is 'Switch On', the code block inside the `if` statement is executed.
+        - If the button's text content is not 'Switch On', the code block inside the `else` statement is executed.
 
-4. **Swapping Logic (`swipe_data()` function):**
-   - Within the `swipe_data()` function:
-     - The `inner Text` property is used to access the text content of the elements referenced by `text1_ref` and `text2_ref`.
-     - The text content of `text1_ref` is stored in a temporary variable `box3`.
-     - The text content of `text2_ref` is then replaced with the content of `text1_ref`.
-     - Finally, the text content of `text1_ref` is updated with the content stored in `box3`, effectively swapping the text content between the two sections.
+4. **If Block**:
+    - Inside the `if` block:
+        - The source (`src`) attribute of the image referenced by `image_ref` is set to 'bulb_on.jpg'. This changes the image displayed to a bulb turned on.
+        - The text content of the button referenced by `btn_ref` is set to 'Switch Off'. This changes the button text to indicate that clicking it will switch the bulb off.
 
-5. **User Interaction:**
-   - When the user clicks the "Swipe the Data" button, the `swipe_data()` function is triggered, causing the text content of the two sections to swap.
+5. **Else Block**:
+    - Inside the `else` block:
+        - The source (`src`) attribute of the image referenced by `image_ref` is set to 'bulb_off.jpg'. This changes the image displayed to a bulb turned off.
+        - The text content of the button referenced by `btn_ref` is set to 'Switch On'. This changes the button text to indicate that clicking it will switch the   bulb on.
 
-6. **DOM Manipulation:**
-   - The swapping of text content is achieved by manipulating the DOM elements directly using JavaScript, without reloading the webpage.
-   - This manipulation is achieved by updating the `innerText` property of the DOM elements referenced by `text1_ref` and `text2_ref`.
-
-In summary, this project demonstrates a simple but effective way to manipulate text content on a webpage using JavaScript and the DOM, providing an interactive user experience.
-
+6. **Conclusion**:
+    - The code toggles the image displayed between a bulb turned on and turned off each time the button is clicked. It also toggles the text content of the button to reflect the current state of the bulb (on or off).
+    - 
+![image](https://github.com/divyanshrajpoot9/Bulb_ON_OFF_Task/assets/114856467/ce04147a-ef0b-46ad-a092-c5c467a0ed7f)
